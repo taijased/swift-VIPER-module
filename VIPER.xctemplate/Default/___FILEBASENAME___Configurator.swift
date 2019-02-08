@@ -13,9 +13,9 @@ import Foundation
 class  ___VARIABLE_productName:identifier___Configurator: ___VARIABLE_productName:identifier___ConfiguratorProtocol {
     
     func configure(with viewController: ___VARIABLE_productName:identifier___ViewController) {
-//        let presenter =  ___VARIABLE_productName:identifier___Presenter(view: viewController)
-//        let router =  ___VARIABLE_productName:identifier___Router(viewController: viewController)
-//        viewController.presenter = presenter
-//        presenter.router = router
+        let presenter =  ___VARIABLE_productName:identifier___Presenter(view: viewController)
+        let router =  ___VARIABLE_productName:identifier___Router(viewController: viewController)
+        viewController.presenter = presenter
+        presenter.router = router
     }
 }
