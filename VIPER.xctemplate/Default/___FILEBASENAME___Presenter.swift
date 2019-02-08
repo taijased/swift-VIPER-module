@@ -15,7 +15,7 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
     var interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
     var router: ___VARIABLE_productName:identifier___RouterProtocol!
     
-    required init(view: SignUpViewProtocol) {
+    required init(view: ___VARIABLE_productName:identifier___ViewProtocol) {
         self.view = view
     }
 
